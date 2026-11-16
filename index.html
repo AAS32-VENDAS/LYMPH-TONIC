@@ -41,16 +41,9 @@
     .btn:hover{background:var(--green2);transform:translateY(-1px)}
     .btn.gold{background:#bd9140;color:#17231f}
     .micro{font-size:11px;color:#77847d;margin-top:10px}
-    .product-stage{min-height:390px;border-radius:18px;background:linear-gradient(145deg,#edf4ed,#dce9df);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+    .product-stage{min-height:390px;border-radius:18px;background:linear-gradient(145deg,#edf4ed,#dce9df);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:20px}
+    .product-stage img{width:100%;max-width:520px;height:auto;position:relative;z-index:1;border-radius:12px}
     .orb{position:absolute;width:290px;height:290px;border-radius:50%;background:#fff8;right:7%;top:9%}
-    .bottle{position:relative;width:150px;height:260px;filter:drop-shadow(14px 20px 13px #173b302c);z-index:1}
-    .cap{width:58px;height:38px;background:linear-gradient(90deg,#b9a06c,#ead7a6,#a88b52);margin:auto;border-radius:7px 7px 2px 2px;border:1px solid #9b855a}
-    .neck{height:17px;width:66px;background:#3b684e;margin:auto}
-    .glass{height:205px;border-radius:19px 19px 25px 25px;background:linear-gradient(90deg,#173e2d,#386b4c 28%,#204d37 75%,#143626);border:2px solid #789078;position:relative;overflow:hidden}
-    .label-bottle{position:absolute;left:8px;right:8px;top:49px;height:105px;background:#f4eddb;border:1px solid #c8b98d;text-align:center;padding:12px 5px;color:#254333}
-    .label-bottle b{font-family:Georgia,serif;font-size:19px;display:block;line-height:1.1}
-    .label-bottle span{font-size:7px;letter-spacing:.16em;display:block;margin-top:8px}
-    .label-bottle i{display:block;font-style:normal;font-size:8px;margin-top:7px}
     .stage-caption{position:absolute;bottom:18px;left:20px;right:20px;text-align:center;color:#476052;font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:800}
     section{padding:65px 0}
     .section-head{text-align:center;max-width:720px;margin:0 auto 34px}
@@ -73,6 +66,7 @@
     .pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;align-items:stretch}
     .price-card{border:1px solid var(--line);border-radius:12px;padding:25px 21px;position:relative;background:#fff;display:flex;flex-direction:column}
     .price-card.featured{border:2px solid var(--gold);box-shadow:0 12px 32px #183e2c12}
+    .price-card img{width:100%;height:auto;border-radius:10px;margin:10px 0 5px}
     .ribbon{position:absolute;top:-13px;left:50%;transform:translateX(-50%);white-space:nowrap;background:var(--gold);color:#1b2c24;border-radius:20px;padding:5px 13px;font-size:10px;font-weight:900;letter-spacing:.08em}
     .pack{font-size:12px;color:#7c887f;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
     .price-card h3{font-family:Georgia,serif;font-size:25px;color:var(--green);margin:7px 0}
@@ -127,10 +121,11 @@
           <div class="micro">Review the formula and current offer details before ordering.</div>
           <div class="disclosure">Affiliate disclosure: Everyday Finds may earn a commission if you purchase through links on this page. This does not change your price.</div>
         </div>
-        <div class="product-stage" role="img" aria-label="Illustrative bottle representing Lymph Tonic liquid botanical supplement">
+        <!-- FOTO NOVA TOPO - 6 FRASCOS COM SELO -->
+        <div class="product-stage">
           <div class="orb"></div>
-          <div class="bottle"><div class="cap"></div><div class="neck"></div><div class="glass"><div class="label-bottle"><b>LYMPH<br>TONIC</b><span>BOTANICAL LIQUID</span><i>DIETARY SUPPLEMENT</i></div></div></div>
-          <div class="stage-caption">Liquid botanical supplement · Product illustration</div>
+          <img src="lymph-hero.jpg" alt="Lymph Tonic - 6 Bottles - 60 Days Money Back Guarantee">
+          <div class="stage-caption">60-Day Money-Back Guarantee* · Product Photo</div>
         </div>
       </div>
     </section>
@@ -194,6 +189,7 @@
         <div class="pricing-grid">
           <article class="price-card">
             <div class="pack">Starter option</div><h3>2 Bottles</h3>
+            <img src="lymph-2.jpg" alt="Lymph Tonic - 2 Bottles">
             <div class="price">$79 <small>/ bottle</small></div>
             <p class="total">$158 total · 60-day supply</p>
             <ul class="features"><li>Two bottles</li><li>60-day supply at the stated serving</li><li>60-day money-back guarantee*</li><li>Shipping fee may apply</li></ul>
@@ -203,6 +199,7 @@
           <article class="price-card featured">
             <div class="ribbon">LOWEST PRICE PER BOTTLE</div>
             <div class="pack">Best value option</div><h3>6 Bottles</h3>
+            <img src="lymph-hero.jpg" alt="Lymph Tonic - 6 Bottles - 60 Days Guarantee">
             <div class="price">$49 <small>/ bottle</small></div>
             <p class="total">$294 total · 180-day supply</p>
             <ul class="features"><li>Six bottles</li><li>180-day supply at the stated serving</li><li>Two digital bonuses advertised</li><li>Free U.S. shipping advertised</li><li>60-day money-back guarantee*</li></ul>
@@ -211,6 +208,7 @@
           </article>
           <article class="price-card">
             <div class="pack">Popular option</div><h3>3 Bottles</h3>
+            <img src="lymph-3.jpg" alt="Lymph Tonic - 3 Bottles">
             <div class="price">$69 <small>/ bottle</small></div>
             <p class="total">$207 total · 90-day supply</p>
             <ul class="features"><li>Three bottles</li><li>90-day supply at the stated serving</li><li>Two digital bonuses advertised</li><li>Free U.S. shipping advertised</li><li>60-day money-back guarantee*</li></ul>
